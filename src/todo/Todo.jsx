@@ -5,7 +5,8 @@ import Header from "../template/Header";
 import TodoForm from "./TodoForm";
 import TodoList from "./TodoList";
 
-const URL = 'http://localhost:3003/api/todos';
+// const URL = 'http://localhost:3003/api/todos';
+const URL = "https://backend-to-do.onrender.com/api/todos";
 
 export default function Todo(props) {
   const [description, setDescription] = useState('');
