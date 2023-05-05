@@ -12,7 +12,6 @@ export default function Todo(props) {
   const [description, setDescription] = useState('');
   const [list, setList] = useState([]);
   
-  //window.onload = refresh;
   
   useEffect(()=> {
     refresh()
