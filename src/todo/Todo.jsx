@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from 'axios';
 
 import Header from "../template/Header";
@@ -12,7 +12,11 @@ export default function Todo(props) {
   const [description, setDescription] = useState('');
   const [list, setList] = useState([]);
   
-  window.onload = refresh;
+  //window.onload = refresh;
+  
+  useEffect(()=> {
+    refresh()
+  }, [])
 
   function handleChange(e) {
     setDescription(e.target.value);
