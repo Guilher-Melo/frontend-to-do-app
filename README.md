@@ -1,6 +1,6 @@
 <h1 align = "center">Lista de Tarefas</h1>
 
-<p align = "center">Lista de tarefas em que você pode adicionar uma tarefa, marcar como concluída e excluir. No <a href="https://github.com/Guilher-Melo/back-end-to-do-app">back-end</a> foi utilizado NodeJs, express e MongoDb. Já no front-end, foi utilizado React.</p>
+<p align = "center">Lista de tarefas em que você pode adicionar uma tarefa, marcar como concluída e excluir. No <a href="https://github.com/Guilher-Melo/back-end-to-do-app" target="_blank">back-end</a> foi utilizado NodeJs, express e MongoDb. Já no front-end, foi utilizado React.</p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Mostra as tarefas que o usuário adicionou. Assim, ele consegue adicionar uma nova tarefa, marcar essa tarefa como concluída e excluir uma tarefa.
-Para fazer o deploy da aplicação foi utilizado o <a href="https://todoappnode.netlify.app/">netlify</a>
+Para fazer o deploy da aplicação foi utilizado o <a href="https://todoappnode.netlify.app/" target="_blank">netlify</a>.
 
 ## 👨‍💻 Como executar o projeto
 
